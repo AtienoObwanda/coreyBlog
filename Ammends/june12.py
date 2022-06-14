@@ -229,7 +229,9 @@ def register(request):
 @login_required
 def profile(request):
 
-    return render(request, 'users/profile.html')from urllib import request
+    return render(request, 'users/profile.html')
+
+from urllib import request
 from django.shortcuts import render, redirect
 # from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
